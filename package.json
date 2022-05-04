@@ -1,0 +1,38 @@
+{
+  "name": "@ychuo/eslint-config",
+  "version": "0.0.2",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "basic.js",
+    "typescript.js",
+    "react.js",
+    "standard.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huoyanchao",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "react": "^18.1.0",
+    "typescript": "^4.6.4"
+  }
+}
